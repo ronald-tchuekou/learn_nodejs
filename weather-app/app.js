@@ -2,7 +2,7 @@ const geocoding = require('./geocoding');
 const forcast = require('./forcast');
 
 const address = process.argv[2] // node app.js cameroon
-
+// check if the address is provided by the user.
 if (!address) {
     console.log('Please provide an address!')
 } else {
